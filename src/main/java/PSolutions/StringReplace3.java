@@ -23,6 +23,7 @@ public class StringReplace3 {
                 cArr[queries[i][0]+j] = tmp.charAt(queries[i][1]-j);
             }
         }
+        // char 배열 문자열로 변환
         answer = String.valueOf(cArr);
 
         return answer;
