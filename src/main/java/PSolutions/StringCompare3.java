@@ -1,9 +1,12 @@
 package PSolutions;
 
+import java.util.Arrays;
+
 public class StringCompare3 {
     // 문자열의 접미사를 문자열 배열로 저장하고 사전순으로 정렬하는 메서드
     public static void main(String[] args) {
-
+        StringCompare3 sc = new StringCompare3();
+        System.out.println(Arrays.toString(sc.solution("banana")));
 
     }
 
